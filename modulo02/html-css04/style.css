@@ -252,7 +252,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: 96.5%;
+        width: 100%;
     }
 
     h1 {
@@ -292,6 +292,11 @@ td, th {
 
     .produtos li img {
         width: 80%;
+    }  
+}
+
+@media screen and (orientation: portrait) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: 96.5%;
     }
-    
 }
