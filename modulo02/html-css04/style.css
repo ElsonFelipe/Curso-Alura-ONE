@@ -249,3 +249,49 @@ td, th {
     width: 560px;
     margin: 2em auto;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    .produtos li {
+        width: 97%;
+        margin-bottom: 10px;
+    }
+
+    .main-form {
+        width: 95%;
+    }
+
+    .enviar {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+    .produtos li {
+        margin: 1.9%;
+        width: 29%;
+        height: 345px;
+        vertical-align: middle;
+    }
+
+    .produtos li img {
+        width: 80%;
+    }
+    
+}
